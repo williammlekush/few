@@ -69,3 +69,10 @@ nav li a.active {
    margin-right:auto;
    display: block;
 }
+
+h1 a {
+   text-decoration: none;
+   font-size: 24px;
+   font-weight: normal;  
+   font-family: "roboto"; 
+}
