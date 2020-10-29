@@ -1,2 +1,1 @@
-# few
-a repository for my front end web projects
+Repository for my Front End Web projects.
