@@ -9,26 +9,26 @@
          width:  50px;
          height: 50px;
          float: left;
-         background: #2296DD;
-         border: 2px solid #333;
+         background: darkcyan;
+         border: 1px solid lightcyan;
        }
  
        .item.thumbnail {
          width:  100px;
          height: 100px;
-         background: #cfcfcf
+         background: darkgreen;
        }
  
        .item.medium {
          width:  150px;
          height: 50px;
-         background: #A6E392
+         background:lightseagreen;
        }
  
        .item.large {
          width:  200px;
          height: 100px;
-         background: #D092E3
+         background: lightgreen;
        }
 
        nav{
