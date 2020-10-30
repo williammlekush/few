@@ -10,22 +10,33 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
-      <a href="../index.html">FEW Home</a><br>
+      <nav>
+         <a href="../index.html">FEW Home</a>
+      </nav>
       
-      <label for="firstName">First name:</label>
+      <section class="inputs">
+      <div class="input">
+      <label for="firstName">First Name</label>
       <input type="text" id="firstName" name="firstName"><br><br>
+      </div>
 
-      <label for="lastName">Last name:</label>
+      <div class="input">
+      <label for="lastName">Last Name</label>
       <input type="text" id="lastName" name="lastName"><br><br>
+      </div>
 
-      <label for="email">Email:</label>
+      <div class="input">
+      <label for="email">Email</label>
       <input type="text" id="email" name="email"><br><br>
-
-      <label for="checkBox">Checkbox:</label>
+      </div>
+      
+      <div class="input">
+      <label for="checkBox">Terms & Conditions Read</label>
       <input type="checkbox" id="checkBox" name="checkBox"><br><br>
+      </div>
 
       <button id="submit">Submit</button>
-      
+      </section>
       
       <script src="script.js" async defer></script>
    </body>

@@ -1,5 +1,69 @@
+body{
+  margin: 1em 20%;
+  font: 24px 'Roboto', sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+nav,
+.input {
+width: 100%;
+margin: .1em 0;
+}
+
+nav a,
+button{
+  text-decoration: none;
+  color: whitesmoke;
+  transition: .3s;
+  background-color: cornflowerblue;
+  padding: .5em;
+  margin: .5em;
+  border-radius: 1em;
+}
+
+button{
+  border: 0;
+  font-size: 18px;
+}
+
+nav a:hover,
+button:hover{
+  background-color: darkblue;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.inputs{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+.input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  padding: .5em;
+  color: cornflowerblue;
+}
+
+input{
+  border-radius: .5em;
+}
+
 .redBorder{
-   outline: 2px solid red;
+  outline: 2px solid lightcoral;
 }
 
 .loader {
