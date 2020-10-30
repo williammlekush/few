@@ -26,11 +26,12 @@ const app = {
       const loaderDiv = document.createElement("div");
       loaderDiv.classList.add('loader');
       // Dispplay the loader.
-      document.body.replaceChild(loaderDiv, app.submitButton);
+      document.getElementById('inputs').replaceChild(loaderDiv, app.submitButton);
 
       // This function changes the loader div into the succes message.
       const successMessage = () => {
          loaderDiv.classList.remove('loader');
+         loaderDiv.classList.add('success-message');
          loaderDiv.innerHTML += "Thanks for signing up!";
       }
 
