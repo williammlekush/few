@@ -70,9 +70,21 @@ nav li a.active {
    display: block;
 }
 
-h1 a {
+.home-nav{
+   display: flex;
+}
+.home-nav a {
    text-decoration: none;
-   font-size: 24px;
-   font-weight: normal;  
-   font-family: "roboto"; 
+   color: whitesmoke;
+   transition: .3s;
+   background-color: cornflowerblue;
+   padding: .5em;
+   margin: .5em;
+   border-radius: 1em;
+   font: 24px 'Roboto', sans-serif;
+}
+
+.home-nav a:hover{
+   background-color: darkblue;
+   padding: 1em;
 }
