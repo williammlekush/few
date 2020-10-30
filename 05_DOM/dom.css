@@ -3,7 +3,7 @@ body{
    font: 24px 'Roboto', sans-serif;
    display: flex;
    flex-flow: row wrap;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: flex-start;
 }
 
@@ -32,6 +32,7 @@ nav a:hover{
 .buttons{
    display: flex;
    flex-flow: row wrap;
+   justify-content: center;
 }
 
 .buttons button{
@@ -43,4 +44,52 @@ nav a:hover{
    background-color: darkblue;
    cursor: pointer;
 }
+
+#button2{
+   order: 1;
+}
+
+#button1{
+   order: 2;
+}
+
+#button3{
+   order:3;
+}
+.paragraphs {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.paragraphs p,
+#quotes,
+#poems{
+   width: 100%;
+   margin: 0;
+   text-align: center;
+}
+
+.slogans{
+   display: flex;
+   flex-flow: row wrap;
+   width: 100%;
+   justify-content: center;
+}
+
+.paragraphs p,
+.slogan{
+   padding: .25em;
+}
+
+.slogan{
+   width: 100%;
+   margin: 0;
+   text-align: center;
+}
+
+
+
 
