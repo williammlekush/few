@@ -1,0 +1,80 @@
+body{
+   margin: 1em 20%;
+   font: 24px 'Roboto', sans-serif;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+nav,
+.buttons{
+width: 100%;
+margin: 1em 0;
+}
+
+.buttons{
+   display: flex;
+   justify-content: center;
+}
+
+nav a,
+.buttons button{
+   text-decoration: none;
+   color: whitesmoke;
+   transition: .3s;
+   background-color: cornflowerblue;
+   padding: .5em;
+   margin: .5em;
+   border-radius: 1em;
+   cursor: pointer;
+}
+
+nav a:hover{
+   background-color: darkblue;
+   padding: 1em;
+}
+
+.buttons button {
+   font-size: 24px;
+   border: none;
+}
+
+#squares{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   width: 100%;
+}
+
+.square {
+   width: 80px;
+   height: 80px;
+   position: relative;
+   cursor: pointer;
+}
+
+.sq1{
+   background: black;
+   z-index: 5;
+}
+
+.sq2{
+   background: lightskyblue;
+   z-index: 4;
+}
+
+.sq3{
+   background: lightgreen;
+   z-index: 3;
+}
+
+.sq4{
+   background: mediumpurple;
+   z-index: 2;
+}
+
+.sq5{
+   background: peachpuff;
+   z-index: 1;
+}
