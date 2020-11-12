@@ -14,3 +14,24 @@ h3 {
    border-radius: 8px;
    font-weight: normal;
 }
+
+nav{
+width: 100%;
+margin: 1em 0;
+}
+
+nav a {
+   text-decoration: none;
+   color: whitesmoke;
+   transition: .3s;
+   background-color: cornflowerblue;
+   padding: .5em;
+   margin: .5em;
+   border-radius: 1em;
+   cursor: pointer;
+}
+
+nav a:hover{
+   background-color: darkblue;
+   padding: 1em;
+}
